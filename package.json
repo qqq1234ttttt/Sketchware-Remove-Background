@@ -1,0 +1,17 @@
+{
+  "name": "newpic-ai-backend",
+  "version": "1.0.0",
+  "description": "NewPic AI Background Removal Backend",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "multer": "^1.4.5-lts.2",
+    "express-rate-limit": "^7.5.0"
+  }
+}
